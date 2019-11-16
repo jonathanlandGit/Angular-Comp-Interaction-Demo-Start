@@ -7,6 +7,8 @@ import { Component, OnInit, Input  } from '@angular/core';
 })
 export class ChildComponent implements OnInit {
 
+// TODO Add childMessage @Input() var
+
   constructor() { }
 
   ngOnInit() {

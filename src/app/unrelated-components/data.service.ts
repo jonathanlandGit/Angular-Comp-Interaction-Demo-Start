@@ -6,6 +6,12 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class DataService {
 
+  private messageSource = new BehaviorSubject("This is default data declared in shared service file")
+
+  currentMessage = this.messageSource.asObservable();
+
   constructor() { }
+
+  // TODO create method changeMessage() method that passes in a string
 
 }

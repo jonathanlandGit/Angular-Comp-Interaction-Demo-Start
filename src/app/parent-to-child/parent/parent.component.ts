@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
+  // TODO create parentMessage var with string message to bind to input
+
   constructor() { }
 
   ngOnInit() {

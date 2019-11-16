@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChildComponent implements OnInit {
 
+  //TODO create message var of type string w/ sample data that will be declared in child component and shown in parent component
+
   constructor() { }
 
   ngOnInit() {

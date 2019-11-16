@@ -8,6 +8,9 @@ import { DataService } from './../data.service';
 })
 export class ParentComponent implements OnInit {
 
+  // TODO (1) declare message var of type string, (2) on init subscribe to
+  //  method create in service
+
   constructor(private _ds: DataService) { }
 
   ngOnInit() {
